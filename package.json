@@ -2,6 +2,16 @@
   "name": "job-application-wizard",
   "version": "0.1.0",
   "private": true,
+  "description": "A multi-step job form: personal info → skills → experience → portfolio → review",
+  "author": {
+    "name": "Saeed Khosravi",
+    "email": "khosravi.webmaster@gmail.com",
+    "url": "https://github.com/sharpWit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharpWit/Job-Application-Wizard.git"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",

@@ -4,7 +4,19 @@
     'type-enum': [
       2,
       'always',
-      ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'chore', 'revert'],
+      [
+        'feat',
+        'fix',
+        'refactor',
+        'chore',
+        'style',
+        'docs',
+        'test',
+        'perf',
+        'revert',
+        'assets',
+        'ci',
+      ],
     ],
     'subject-case': [0], // Disable case checking for subject
   },

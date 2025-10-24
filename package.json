@@ -19,6 +19,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:scss": "npx stylelint \"**/*.scss\"",
+    "lint:scss-fix": "npx stylelint \"**/*.scss\" --fix --config stylelint.config.mjs",
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
     "test": "jest",
